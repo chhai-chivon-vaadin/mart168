@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="mart168-ra:war">
+    <output-path>$PROJECT_DIR$/mart168-ra/target</output-path>
+    <root id="archive" name="mart168-ra-0.0.1-SNAPSHOT.war">
+      <element id="artifact" artifact-name="mart168-ra:war exploded" />
+    </root>
+  </artifact>
+</component>

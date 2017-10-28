@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/mart168.iml" filepath="$PROJECT_DIR$/mart168.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mart168-app/mart168-app.iml" filepath="$PROJECT_DIR$/mart168-app/mart168-app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mart168-core/mart168-core.iml" filepath="$PROJECT_DIR$/mart168-core/mart168-core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mart168-ra/mart168-ra.iml" filepath="$PROJECT_DIR$/mart168-ra/mart168-ra.iml" />
+    </modules>
+  </component>
+</project>
