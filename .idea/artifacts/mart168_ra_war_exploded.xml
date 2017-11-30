@@ -45,6 +45,9 @@
           <element id="library" level="project" name="Maven: org.springframework:spring-expression:4.3.12.RELEASE" />
           <element id="library" level="project" name="Maven: org.slf4j:slf4j-api:1.7.25" />
           <element id="library" level="project" name="Maven: org.springframework:spring-core:4.3.12.RELEASE" />
+          <element id="archive" name="mart168-core-0.0.1-SNAPSHOT.jar">
+            <element id="module-output" name="mart168-core" />
+          </element>
         </element>
       </element>
       <element id="directory" name="META-INF">
