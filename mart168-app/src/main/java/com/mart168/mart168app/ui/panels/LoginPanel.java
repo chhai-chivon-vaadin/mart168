@@ -1,12 +1,12 @@
 package com.mart168.mart168app.ui.panels;
 
-import com.mart168.mart168core.models.users.User;
-import com.mart168.mart168core.utils.MyComboBoxUtil;
+import com.mart168.mart168app.ui.services.product.ProductService;
 import com.vaadin.annotations.Title;
 import com.vaadin.server.VaadinRequest;
 import com.vaadin.shared.ui.MarginInfo;
 import com.vaadin.spring.annotation.SpringUI;
 import com.vaadin.ui.*;
+import org.springframework.beans.factory.annotation.Autowired;
 
 /**
  * @author by chhai.chivon  on 11/8/2017.
@@ -21,12 +21,14 @@ public class LoginPanel extends UI {
     private static final String username = "username";
     private static final String passwordValue = "test123";
 
+    public LoginPanel(){
+
+    }
+
 
     @Override
     protected void init(VaadinRequest request) {
         setSizeFull();
-
-        MyComboBoxUtil<User> comboboxUtilUser = new MyComboBoxUtil(User.class);
 
         user = new TextField("User:");
         user.setWidth("300px");
