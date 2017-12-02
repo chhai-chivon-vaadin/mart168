@@ -8,5 +8,8 @@ public class Mart168AppApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(Mart168AppApplication.class, args);
+
+
 	}
+
 }

@@ -45,11 +45,11 @@
 			<scope>test</scope>
 		</dependency>
 
-		<dependency>
-			<groupId>com.mart168</groupId>
-			<artifactId>mart168-core</artifactId>
-			<version>0.0.1-SNAPSHOT</version>
-		</dependency>
+		<!--<dependency>-->
+			<!--<groupId>com.mart168</groupId>-->
+			<!--<artifactId>mart168-core</artifactId>-->
+			<!--<version>0.0.1-SNAPSHOT</version>-->
+		<!--</dependency>-->
 	</dependencies>
 
 	<dependencyManagement>

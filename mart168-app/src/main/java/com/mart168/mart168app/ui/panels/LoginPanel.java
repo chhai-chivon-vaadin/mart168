@@ -1,7 +1,5 @@
 package com.mart168.mart168app.ui.panels;
 
-import com.mart168.mart168core.models.users.User;
-import com.mart168.mart168core.utils.MyComboBoxUtil;
 import com.vaadin.annotations.Title;
 import com.vaadin.server.VaadinRequest;
 import com.vaadin.shared.ui.MarginInfo;
@@ -21,12 +19,14 @@ public class LoginPanel extends UI {
     private static final String username = "username";
     private static final String passwordValue = "test123";
 
+    public LoginPanel(){
+
+    }
+
 
     @Override
     protected void init(VaadinRequest request) {
         setSizeFull();
-
-        MyComboBoxUtil<User> comboboxUtilUser = new MyComboBoxUtil(User.class);
 
         user = new TextField("User:");
         user.setWidth("300px");
